@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF999"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="ROUTINE"
+        android:textColor="#000"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text=""
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mon"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tue"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Wed"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thu"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fri"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sat"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/timetable_num_bg"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/mon1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    tools:ignore="LabelFor" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/tue1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/wed1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/thu1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/fri1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/sat1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/timetable_num_bg"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/mon2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/tue2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/wed2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/thu2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text"
+                    tools:ignore="Autofill" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/fri2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/sat2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/timetable_num_bg"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/mon3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/tue3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/wed3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/thu3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/fri3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/sat3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/timetable_num_bg"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/mon4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/tue4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/wed4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/thu4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/fri4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/sat4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/timetable_num_bg"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/mon5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/tue5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/wed5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/thu5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/fri5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/sat5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/timetable_num_bg"
+                        android:gravity="center"
+                        android:text="6"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/mon6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/tue6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/wed6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/thu6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/fri6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/sat6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/timetable_num_bg"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/mon7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/tue7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/wed7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/thu7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/fri7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/sat7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/timetable_num_bg"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/mon8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/tue8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    tools:ignore="TooManyViews"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/wed8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/thu8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    tools:ignore="LabelFor"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/fri8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+
+                <EditText
+                    android:backgroundTint="#000000"
+                    android:id="@+id/sat8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <Button
+                        android:id="@+id/timetable_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/dd"
+                        android:text="Save" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/timetable_reset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/dd"
+                        android:text="Reset" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

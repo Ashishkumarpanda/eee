@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_imp_apps"
+        android:title="Important Apps" />
+    <item
+        android:id="@+id/menu_timetable"
+        android:title="Time Table" />
+    <item
+        android:id="@+id/menu_syllabus"
+        android:title="Syllabus" />
+    <item
+        android:id="@+id/menu_academic"
+        android:title="Academic" />
+    <item
+        android:id="@+id/menu_library_fine_calc"
+        android:title="Library Fine Calculator" />
+    <item
+        android:id="@+id/menu_todo"
+        android:title="To Do List" />
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"/>
+</menu>

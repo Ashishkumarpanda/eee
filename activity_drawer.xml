@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_bg"
+    android:elevation="0dp"
+    tools:context=".DrawerActivity"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/home_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#0277BD" />
+
+        <FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#ffffff"
+        app:elevation="0dp"
+        app:headerLayout="@layout/drawer_header"
+        app:itemTextAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        app:itemTextColor="#000"
+        app:menu="@menu/home_drawer_menu" />
+
+    <!--    <ScrollView-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:foregroundGravity="center_horizontal">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:gravity="center_horizontal"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="150dp"-->
+    <!--                android:layout_height="150dp"-->
+    <!--                android:layout_marginBottom="20dp"-->
+    <!--                android:src="@drawable/firebaselogo" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:fontFamily="@font/timesnewroman"-->
+    <!--                android:text="WELCOME USER!!!!"-->
+    <!--                android:textColor="#000"-->
+    <!--                android:textSize="30sp" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_msg"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginHorizontal="20dp"-->
+    <!--                android:layout_marginVertical="5dp"-->
+    <!--                android:background="@drawable/btn_message_bg"-->
+    <!--                android:baselineAligned="false"-->
+    <!--                android:drawableStart="@android:drawable/stat_notify_chat"-->
+    <!--                android:paddingLeft="10dp"-->
+    <!--                android:text="message"-->
+    <!--                android:textColor="#000"-->
+    <!--                android:textSize="20sp" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_phone"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginHorizontal="20dp"-->
+    <!--                android:layout_marginVertical="5dp"-->
+    <!--                android:background="@drawable/btn_phone_bg"-->
+    <!--                android:baselineAligned="false"-->
+    <!--                android:drawableStart="@android:drawable/stat_sys_phone_call"-->
+    <!--                android:drawablePadding="10dp"-->
+    <!--                android:paddingLeft="10dp"-->
+    <!--                android:text="phone"-->
+    <!--                android:textColor="#fff"-->
+    <!--                android:textSize="20sp" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_browser"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginHorizontal="20dp"-->
+    <!--                android:layout_marginVertical="5dp"-->
+    <!--                android:background="@drawable/btn_browser_bg"-->
+    <!--                android:baselineAligned="false"-->
+    <!--                android:drawableStart="@drawable/globe"-->
+    <!--                android:drawablePadding="10dp"-->
+    <!--                android:paddingLeft="10dp"-->
+    <!--                android:text="browser"-->
+    <!--                android:textColor="#000"-->
+    <!--                android:textSize="20sp" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_fb"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginHorizontal="20dp"-->
+    <!--                android:layout_marginVertical="5dp"-->
+    <!--                android:background="@drawable/btn_fb_bg"-->
+    <!--                android:baselineAligned="false"-->
+    <!--                android:text="facebook"-->
+    <!--                android:textColor="#fff"-->
+    <!--                android:textSize="20sp" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_insta"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginHorizontal="20dp"-->
+    <!--                android:layout_marginVertical="5dp"-->
+    <!--                android:background="@drawable/btn_insta_bg"-->
+    <!--                android:baselineAligned="false"-->
+    <!--                android:text="instagram"-->
+    <!--                android:textColor="#fff"-->
+    <!--                android:textSize="20sp" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/logout"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginVertical="10dp"-->
+    <!--                android:text="Logout"-->
+    <!--                android:textColor="#000"-->
+    <!--                android:textSize="18sp" />-->
+
+
+    <!--        </LinearLayout>-->
+    <!--    </ScrollView>-->
+</androidx.drawerlayout.widget.DrawerLayout>

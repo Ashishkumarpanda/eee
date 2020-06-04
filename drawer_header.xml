@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:background="#eee"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    tools:ignore="Overdraw">
+
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:layout_marginStart="10dp"
+        android:textColor="#000"
+        android:text="demo@gmail.com"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:id="@+id/user_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

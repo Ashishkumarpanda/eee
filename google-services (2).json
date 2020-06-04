@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "378282596623",
+    "firebase_url": "https://lotus-ebd51.firebaseio.com",
+    "project_id": "lotus-ebd51",
+    "storage_bucket": "lotus-ebd51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378282596623:android:087e96fd10e04da8eb867a",
+        "android_client_info": {
+          "package_name": "com.example.lotus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378282596623-jfa769jq40nrd4d32js3fplfe3uehlga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHraBO-ntMUueLgJsNqjieXi_pU1MlWyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378282596623-jfa769jq40nrd4d32js3fplfe3uehlga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
