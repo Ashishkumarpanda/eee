@@ -1,0 +1,51 @@
+                                               PROJECT  REPORT
+PROJECT NAME:- STUDENT'S COMPANION APP
+
+CREATED BY:- ASHISH KUMAR PANDA,
+             INSTRUMENTATION & ELECTRONICS ENGINEERING(2nd yr.)
+MENTORED BY:-ABHISHEK KUMAR
+             INSTRUMENTATION & ELECTRONICS ENGINEERING(2nd yr.)
+
+TECHNOLOGIES USED:- ANDROID-STUDIO,JAVA,FIREBASE AUTHENTICATION
+
+APP FEATURES:
+ 1)A SPLASH SCREEN
+ 2)A LOGIN & REGISTRATION PAGE CONNECTED TO FIREBASE
+ 3)A HOME SCREEN THAT CONTAINS:
+            a)a calculator button
+            b)a calendar button
+            c)a clock button
+            d)a voice recorder button
+            e)a time table
+            f)a student syllabus
+            g)academic section
+            h)a to-DO-list
+USES:-
+                Instead of searching for your syllabus you can find your syllabus as well as
+                the important things you need to do before exam you can put them in the
+                to-do-list.And a lot more your day-to-day useful features you can find here.
+                This app is helpful for both student and teachers as well as the college academic 
+                 section,e.g:-to keep a separate list of back and regular students.
+
+
+FUTURE SCOPE:-More number of features to be added that will make the college life of a student 
+              easier.1)an attendance button(show attendance to students and teachers can take attendance from it)
+                     2)an bus manual(this will share the real time bus route with every students parents to let them know where the bus is going 
+                                      for their child's safety)
+                     3)an map(this will give the path between entered location and destination inside college)
+
+     
+
+                      ------------------------------------------------------------------------------------------------
+                                        THANK_YOU,spectrum club for this one month long wonderful
+                                         internship experience.
+
+      
+                                                                                  
+
+
+    
+  
+        
+
+
